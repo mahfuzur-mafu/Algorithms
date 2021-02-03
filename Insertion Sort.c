@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-
     int n,temp;
     int arr[100];
     printf("Elements :");
