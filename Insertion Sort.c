@@ -10,6 +10,7 @@ int main()
         printf("Elements no [%d]: ",i+1);
         scanf("%d",&arr[i]);;
     }
+    
     for (int i = 1 ; i <= n - 1; i++)
     {
         int j;
