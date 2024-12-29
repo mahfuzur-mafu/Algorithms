@@ -2,103 +2,73 @@
 
 ## Overview
 
-This repository contains a collection of algorithms implemented in various programming languages. The primary goal is to provide efficient, well-documented solutions for common algorithmic problems. These implementations are designed to serve as a resource for learning, practice, and reference.
+This repository contains a collection of algorithm implementations in C and C++ to solve various computational problems. These implementations are designed to aid learning, practice, and quick reference for fundamental algorithms.
 
-## Features
+---
 
-- **Comprehensive Implementations**: Includes a variety of algorithms across different categories such as sorting, searching, graph algorithms, dynamic programming, and more.
-- **Multi-language Support**: Implementations are available in multiple programming languages, catering to different needs and preferences.
-- **Optimized Code**: Focus on clarity, efficiency, and adherence to best practices.
+## Included Algorithms
 
-## Categories
+### Sorting Algorithms:
+- **Bubble Sort**: [Bubble Sort Implementation (C)](Bubble%20Sort.c)
+- **Insertion Sort**: [Insertion Sort Implementation (C)](Insertion%20Sort.c)
+- **Merge Sort**: [Merge Sort Implementation (C)](Merge%20Sort.c)
+- **Selection Sort**: [Selection Sort Implementation (C)](Selection%20sort.c)
 
-### Sorting Algorithms
-- Bubble Sort
-- Quick Sort
-- Merge Sort
-- Insertion Sort
-- Selection Sort
+### Searching Algorithms:
+- **Binary Search**: [Binary Search Implementation (C++)](Binary%20Search.cpp)
+- **Linear Search**: [Linear Search Implementation (C)](Linear%20Search.c)
 
-### Searching Algorithms
-- Binary Search
-- Linear Search
-- Depth-First Search (DFS)
-- Breadth-First Search (BFS)
+### Dynamic Programming Algorithms:
+- **Knapsack Problem**: [Knapsack Implementation (C)](Knapsack.c)
+- **Longest Common Subsequence (LCS)**: [LCS Implementation (C++)](Longest%20Common%20Subsequence(LCS).cpp)
+- **Longest Increasing Subsequence (LIS)**: [LIS Implementation (C++)](Longest%20Increasing%20Subsequence(LIS).cpp)
+- **Longest Decreasing Subsequence (LDS)**: [LDS Implementation (C++)](Longest%20Decreasing%20Subsequence%20(LDS).cpp)
 
-### Graph Algorithms
-- Dijkstra's Algorithm
-- Floyd-Warshall Algorithm
-- Kruskal's Algorithm
-- Prim's Algorithm
+### Greedy Algorithms:
+- **Coin Change Problem**: [Coin Change (Greedy) Implementation (C++)](Coin%20Change%20(Greedy).cpp)
 
-### Dynamic Programming
-- Fibonacci Sequence
-- Longest Common Subsequence
-- 0/1 Knapsack Problem
-- Matrix Chain Multiplication
+---
 
-### Miscellaneous
-- Greatest Common Divisor (GCD)
-- Least Common Multiple (LCM)
-- Fast Exponentiation
-
-## Structure
-
-The repository is organized as follows:
-
-```
-Algorithms/
-│
-├── Sorting/
-│   ├── bubble_sort.py
-│   ├── quick_sort.cpp
-│   └── merge_sort.java
-│
-├── Searching/
-│   ├── binary_search.py
-│   ├── dfs.cpp
-│   └── bfs.java
-│
-├── Graphs/
-│   ├── dijkstra.cpp
-│   ├── kruskal.py
-│   └── prim.java
-│
-└── DynamicProgramming/
-    ├── fibonacci.py
-    ├── knapsack.cpp
-    └── lcs.java
-```
-
-## Installation and Setup
+## How to Use
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/mahfuzur-mafu/Algorithms.git
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the directory:
    ```bash
    cd Algorithms
    ```
 
-3. Choose the desired algorithm and programming language, then execute the file in the corresponding language environment.
+3. Compile and run the desired file. For example:
+   ```bash
+   gcc Bubble\ Sort.c -o BubbleSort
+   ./BubbleSort
+   ```
 
-## Contribution
+   For C++ files:
+   ```bash
+   g++ Binary\ Search.cpp -o BinarySearch
+   ./BinarySearch
+   ```
 
-Contributions are welcome! Follow these steps to contribute:
+---
 
+## Contribution Guidelines
+
+Contributions are welcome! If you'd like to add a new algorithm or improve the existing ones:
 1. Fork the repository.
-2. Create a new branch for your feature or fix:
+2. Create a feature branch:
    ```bash
-   git checkout -b feature-name
+   git checkout -b add-algorithm
    ```
-3. Commit your changes with a descriptive message:
+3. Commit your changes:
    ```bash
-   git commit -m "Added implementation for [algorithm]"
+   git commit -m "Added [algorithm_name] implementation"
    ```
-4. Push to your branch:
+4. Push to the branch:
    ```bash
-   git push origin feature-name
+   git push origin add-algorithm
    ```
-5. Create a pull request explaining your changes.
+5. Submit a Pull Request.
